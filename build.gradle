@@ -34,7 +34,7 @@ task clean(type: Delete) {
 }
 
 def getBreventVersion = { ->
-    def tag = 'git describe --tags --always --dirty'.execute().text.trim()
+    def tag = 'v2.8.6'
     if (tag.startsWith('v')) {
         tag = tag.substring(1)
     }
