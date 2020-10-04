@@ -189,6 +189,12 @@ public class AppsItemViewHolder extends RecyclerView.ViewHolder
                 return "Android 8.0, 2017";
             case 27:
                 return "Android 8.1, 2017";
+            case 28:
+                return "Android 9, 2018";
+            case 29:
+                return "Android 10, 2019";
+            case 30:
+                return "Android 11, 2020";
             default:
                 return "Unknown";
         }
